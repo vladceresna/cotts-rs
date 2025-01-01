@@ -595,6 +595,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "cotts-rs"
+version = "0.1.4"
+dependencies = [
+ "candle-core",
+ "candle-nn",
+ "candle-transformers",
+ "derive_builder",
+ "hf-hub",
+ "hound",
+ "msedge-tts",
+ "online",
+ "pyo3",
+ "rand",
+ "rodio",
+ "serde_json",
+ "thiserror",
+ "tracing-chrome",
+ "tracing-subscriber",
+ "tts",
+]
+
+[[package]]
 name = "cpal"
 version = "0.15.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1748,28 +1770,6 @@ dependencies = [
  "security-framework",
  "security-framework-sys",
  "tempfile",
-]
-
-[[package]]
-name = "natural-tts"
-version = "0.1.4"
-dependencies = [
- "candle-core",
- "candle-nn",
- "candle-transformers",
- "derive_builder",
- "hf-hub",
- "hound",
- "msedge-tts",
- "online",
- "pyo3",
- "rand",
- "rodio",
- "serde_json",
- "thiserror",
- "tracing-chrome",
- "tracing-subscriber",
- "tts",
 ]
 
 [[package]]
